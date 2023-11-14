@@ -1,27 +1,21 @@
 #include <string>
 
 std::string problemSolution3(float height, char S) {
+    std::
     // write your code here
     if (S == 'M'){
         if(height < 1.70){
-            cout << S << "Short";
-        }
-        else if(height < 1.85){
-            cout <<S<< "Normal";
-        }
-        else{
-            cout <<S<< "Tall";
-        }
+            cout <
     }
     else{
         if(height < 1.60){
-            cout << S << "Short";
+            cout  << "Short";
         }
         else if(height < 1.75){
-            cout <<S<< "Normal";
+            cout << "Normal";
         }
         else{
-            cout <<S<< "Tall";
+            cout << "Tall";
         }
     }
 
