@@ -20,6 +20,8 @@ std::string problemSolution3(float height, char S) {
         } else {
             return "Tall"
         }
+
+        return result
     }
 
 
