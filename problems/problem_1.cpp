@@ -1,4 +1,7 @@
 void problemSolution1(float consumed_water) {
+    // write your code here
+    // cost + consumed_water * 0.4
+
     float cost;
     if(consumed_water <= 30){
         cost = 13 + consumed_water *0.4;
