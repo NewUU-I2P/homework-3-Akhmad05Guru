@@ -1,10 +1,10 @@
 #include <string>
 
-std::string problemSolution3(float height, char S) {
-    std::string result;
+std::string problemSolution3(float height, char s) {
+
     // write your code here
 
-    if (S == 'M'){
+    if (s == 'M'){
         if(height < 1.70){
             return "Short"
         } else if ( height < 1.85){
@@ -12,7 +12,7 @@ std::string problemSolution3(float height, char S) {
         } else {
             return "Tall"
         }
-    } else if(S == 'F'){
+    } else if(s == 'F'){
         if(height < 1.60){
             return "Short"
         } else if ( height < 1.75){
@@ -21,7 +21,7 @@ std::string problemSolution3(float height, char S) {
             return "Tall"
         }
 
-        return result
+
     }
 
 
