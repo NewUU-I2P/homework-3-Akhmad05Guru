@@ -2,8 +2,6 @@
 
 std::string problemSolution3(float height, char S) {
 
-    // write your code here
-
     if (S == 'M'){
         if(height < 1.70){
             return "Short"
@@ -23,19 +21,4 @@ std::string problemSolution3(float height, char S) {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // use return to return your result
-    // make use of control flow statements
 }
